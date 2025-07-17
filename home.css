@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+}
+
+.nav-first{
+    padding: 20px;
+}
+#vortex{
+    font-weight: 600;
+}
+.nav-unorder{
+    display: flex;
+}
+#drop{
+    border: none;
+}
+.nav-unorder li{
+    padding: 20px 30px 20px 20px;
+}
+.sectiontwo-first-one{
+    /* width: 100%;
+    height: 700px; */
+    background-image: linear-gradient(to right, rgba(229, 157, 195, 0.569) , rgba(204, 134, 239, 0.4) );
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.sectiontwo-first{
+    margin: 0px 40px 0px 40px;
+    width: 1100px;
+    height: 500px;
+    background-image:linear-gradient(to right, rgba(229, 157, 195, 0.569)  ,rgba(204, 134, 239, 0.4) ),url(banner.jpg);
+  
+}
+
+#para{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+}
+#btn{
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+    border-radius:50px;
+
+    
+}
+
+.section-3{
+    background-image: linear-gradient(to right, rgba(229, 157, 195, 0.569)  ,rgba(204, 134, 239, 0.4) );
+    width: 100%;
+    height:1500px;
+}
+
+.sectionthree{
+    margin: 0px 40px 0px 40px;
+    width: 1100px;
+    height: 1600px;
+    background-color: white;
+}
+#sec-head{
+    font-size: 40px;
+    font-weight:600;
+    font-family: "Poppins", sans-serif;;
+    text-transform: uppercase;
+    color:#7a7d86 ;
+   text-align: center;
+    line-height: 1.5;
+}
+#line{
+    width: 300px;
+    height:3px;
+    background: linear-gradient(to right, rgba(229, 157, 195, 0.569)  ,rgba(204, 134, 239, 0.4));
+    border: none;
+    position: relative;
+    left: 220px;
+    margin: 20px;
+}
+
+#sec-para{
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: gray;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.sectionthree-first{
+    margin: 0px 100px 0px 100px;
+    padding: 80px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.sectionthree-second{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    background-image: linear-gradient(to right, rgba(229, 157, 195, 0.1)  ,rgba(204, 134, 239, 0.4)),url(images/banner2.jpg) ;
+}
+
+.child{
+    border: 1px solid gray;
+    width: calc(100%/3);
+    padding: 50px;
+    text-align: center;
+}
+
+.row-one{
+    display: flex;
+}
+.row-two{
+    display: flex;
+    
+}
+
+#icon{
+    text-align: center;
+}
+.child h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-weight: 900;
+    margin: 20px;
+}
